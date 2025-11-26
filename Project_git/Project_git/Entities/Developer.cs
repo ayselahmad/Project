@@ -11,4 +11,9 @@ public class Developer : Person
     public Developer(string name, string surname) : base(name, surname)
     {
     }
+
+    public override void ShowInfo()
+    {
+        base.ShowInfo();
+    }
 }

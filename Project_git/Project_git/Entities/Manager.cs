@@ -10,5 +10,6 @@ public class Manager : Person
 {
     public Manager(string name, string surname) : base(name, surname)
     {
+
     }
 }

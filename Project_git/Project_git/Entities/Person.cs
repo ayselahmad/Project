@@ -13,6 +13,12 @@ public class Person
 
     public Person(string name, string surname)
     {
-        
+        Name = name;
+        Surname = surname;
+    }
+
+    public virtual void ShowInfo()
+    {
+        Console.WriteLine($"{Name} {Surname}");
     }
 }

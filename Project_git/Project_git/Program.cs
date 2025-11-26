@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Project_git.Entities;
+
+Person developer = new Developer("Aysel", "Ahmadova");
+
+developer.ShowInfo();
