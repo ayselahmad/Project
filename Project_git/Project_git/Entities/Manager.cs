@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Project_git.Entities;
 
-public class Manager
+public class Manager : Person
 {
+    public Manager(string name, string surname) : base(name, surname)
+    {
+    }
 }
